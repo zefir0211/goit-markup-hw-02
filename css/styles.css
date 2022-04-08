@@ -38,9 +38,6 @@ a {
     text-decoration: none;
     color: var(--title-nav-text-color);
 }
-.header-item>a:hover, .header-item>a:focus{
-    color: var(--active-text-color);
-}
 
 .header-list {
     font-weight: 500;
@@ -49,6 +46,10 @@ a {
     letter-spacing: 0.02em;
 }
 
+.header-item>a:hover,
+.header-item>a:focus {
+    color: var(--active-text-color);
+}
 
 .header-mail, .header-tel {
     font-weight: 500;
