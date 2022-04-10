@@ -46,13 +46,13 @@ a {
     letter-spacing: 0.02em;
 }
 
-.header-item>a:hover,
-.header-item>a:focus {
+.header-items>a:hover,
+.header-items>a:focus {
     color: var(--active-text-color);
 }
 
-.header-list .header-item.current {
-    color: red;
+.header-item.current {
+    color: var(--active-text-color);
 }
 
 .header-mail, .header-tel {
